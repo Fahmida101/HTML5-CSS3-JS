@@ -1,0 +1,23 @@
+*{margin: 0; padding: 0;}
+
+#container{
+	width: 700px;
+	text-align: center;
+	margin: 50px auto;
+	border: 2px solid #8CC6E9;
+	padding: 10px;
+	border-radius: 10px;
+	
+}
+#container p{
+	text-align: justify;
+	margin-bottom: 50px;
+	
+}
+#container h2{
+	margin: 20px;
+	background-color: #0078D7;
+	padding: 5px;
+	border-radius: 17px;
+	
+}

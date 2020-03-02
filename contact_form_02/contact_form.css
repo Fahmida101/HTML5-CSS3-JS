@@ -1,0 +1,16 @@
+*{margin: 0;padding: 0;outline: 0; }
+.wrap{
+	
+	width: 800px;
+	height: 600px;
+	background: #26D9D9;
+	margin: 20px auto;
+	padding:5px;
+}
+.content{
+	width:790px;
+	height: 580px;
+	background: #26D9D9;
+	
+	
+}

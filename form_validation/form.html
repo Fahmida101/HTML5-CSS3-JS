@@ -1,0 +1,45 @@
+<html>
+	<head>
+		<title>Contact Form</title>
+		<link rel="stylesheet" href="style.css">
+		<script src="valid.js"></script>
+	</head>
+	<body>
+		<div class="contact_form">
+			
+			<h2>Contact Form</h2>
+			<form onsubmit="return validate()" method="POST" action="action.html">
+			<table >
+				<tr>
+					<td>First Name: </td>
+					<td><input type="text" id="firstname" placeholder="Enter your First Name..."></td>
+				</tr>
+			
+				<tr>
+					<td>Last Name: </td>
+					<td><input type="text" id="lastname" placeholder="Enter your Last Name..."></td>
+				</tr>
+				
+				<tr>
+					<td>Email: </td>
+					<td><input type="email" id="email" placeholder="Enter your Email Address..."></td>
+				</tr>
+				
+				<tr>
+					<td>Message: </td>
+					<td><textarea id="message" placeholder="Your Text Here..."></textarea></td>
+				</tr>
+				
+				<tr>
+					<td></td>
+					<!--<td><input type="submit" value="Submit"></td> -->
+					<td><button type="submit">Register</button></td>
+				</tr>
+			</table>
+			</form>
+			
+		</div>
+		<div id="output"></div>
+	</body>
+
+</html>

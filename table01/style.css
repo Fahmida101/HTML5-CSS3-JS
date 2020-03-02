@@ -1,0 +1,27 @@
+
+*{margin: 0; padding: 0; outline: 0;}
+
+table{
+	width: 500px;
+	border-spacing: 5px;
+	background: #fff68f;	
+}
+
+table, th, td{
+	border: 1px solid #000;
+	text-align: center;
+	padding: 5px;
+	border-radius: 5px;
+}
+th{
+	background: #fff;
+	color: #000;
+}
+caption{
+	margin-bottom: 5px;
+	font-size: 25px;
+	color: #0078D7;
+}
+tr:nth-child(even){
+	background: #FECC42;
+}

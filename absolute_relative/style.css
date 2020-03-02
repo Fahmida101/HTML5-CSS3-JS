@@ -1,0 +1,35 @@
+
+html{
+    background: #999;
+}
+body{
+    width: 600px;
+    height: 700px;
+    margin: 0 auto;
+    background: #d2d2d2;
+    padding: 10px;
+
+}
+.boxes{
+    width: 500px;
+    height: 450px;
+    background: #FABF9E;
+    padding: 15px;
+    position: relative;
+}
+div{
+    width: 100px;
+    height: 100px;
+    padding: 15px;
+    margin-bottom: 10px;
+    opacity: .8;
+}
+.element_1{
+    background: #EF7625;
+}
+.element_2{
+    background: #24ACF2;
+}
+.element_3{
+    background: #FFCD42;
+}

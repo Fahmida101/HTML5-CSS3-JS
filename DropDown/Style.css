@@ -1,0 +1,54 @@
+
+*{margin: 0; padding: 0; outline:0;}
+
+
+
+.full_Width{}
+.width{
+	margin: 20px auto;
+	width: 1000px
+}
+.menu{}
+.menu ul{}
+.menu ul li{
+	list-style: none;
+	float: left;
+	position: relative;
+}
+.menu ul li a{
+	text-decoration: none;
+	background: lightskyblue;
+	padding: 8px 15px;
+	display: block;
+	transition: .3s;
+	border-bottom: 2px solid #000;
+	width: 120px;
+
+}
+.menu ul li a:hover{
+	background: royalblue;
+}
+.menu ul li ul{
+	position: absolute;
+	left: -9999px;
+}
+.menu ul li:hover ul{
+	left: 0px;
+}
+.menu ul li ul li{
+	position: relative;
+}
+.menu ul li ul li a{}
+
+.menu ul li ul li ul{
+	position: absolute;
+	top: -9999px;
+}
+.menu ul li ul li:hover ul{
+	top: 0px;
+	left: 150px;
+}
+.menu ul li ul li ul li{
+	border-left: 2px solid #000;
+}
+.menu ul li ul li ul li a{}

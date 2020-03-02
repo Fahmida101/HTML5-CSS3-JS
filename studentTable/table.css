@@ -1,0 +1,29 @@
+*{margin: 0; padding: 0;outline: 0;}
+.wrap{
+	
+	width: 700px;
+	height: 400px;
+	background: #26D9D9;
+	margin: 20px auto;
+	padding:5px;
+}
+table{
+	width: 600px;
+	background: #fff;
+	margin: 50px;
+}
+caption{
+	margin-bottom: 10px;
+}
+table,th,td{
+	
+	border: 2px solid #000;
+	border-collapse: collapse;
+}
+tr{
+	text-align:center;
+	height: 40px;
+}
+tr:nth-child(5){
+	background: #95CE46;
+}
