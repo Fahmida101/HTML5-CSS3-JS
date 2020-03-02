@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Contact Form</title>
+		<link type="text/css" rel="stylesheet" href="style.css"/>
+		<script src="valid.js"></script>
+	</head>
+	<body>
+		<main class="wrap">
+		
+			<div class="contact_form">
+				<h1>Contact Form</h1>
+				<form onsubmit="return validate()" method="POST" action="action.html">
+				<table>
+					<tr>
+						<td>First Name: </td>
+						<td><input type="text" id="first" placeholder="Enter your First Name..."></td>
+					</tr>
+				
+					<tr>
+						<td>Last Name: </td>
+						<td><input type="text" id="last" placeholder="Enter your Last Name..."></td>
+					</tr>
+					
+					<tr>
+						<td>Email: </td>
+						<td><input type="email" id="email" placeholder="Enter your Email Address..."></td>
+					</tr>
+					
+					<tr>
+						<td>Message: </td>
+						<td><textarea id="text" placeholder="Your Text Here..."></textarea></td>
+					</tr>
+					
+					<tr>
+						<td></td>
+						<td><input type="image" src="Capture.PNG" alt="submit" width="250px"; height="50px"></td>
+					</tr>
+				</table>
+				</form>
+			</div>
+		</main>
+		<div id="output"></div>
+	
+	</body>
+
+</html>
+	
